@@ -8,11 +8,11 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
  padding-left: 2%;
  padding-right: 2%;
   margin: 50px auto 0 auto;
-  padding-top: 130px;
+  padding-top: 50px;
   padding-bottom: 100px;
   font-family: 'Sacramento', cursive;
   color: #cc0e74;;
@@ -36,7 +36,8 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
-  color: #364f6b;
+  /* color: #364f6b; */
+  color: white;
   font-weight: normal;
   padding-bottom: 10%;
 }
@@ -301,6 +302,31 @@ top:10px;
     100%{background-position:48% 0%}
 }
 
+/* .css-selector {
+    background: linear-gradient(297deg, #3ee4b9, #32cf41, #0f6417, #efe976);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+} */
+
 {
  box-sizing: border-box;
 }
@@ -354,4 +380,12 @@ form.example::after {
 .con
 {
   padding: 10px;
+}
+.row
+{
+  margin: 4% 7%;
+}
+.ph
+{
+  margin-left: 40px;
 }
